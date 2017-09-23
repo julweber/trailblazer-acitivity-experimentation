@@ -1,0 +1,22 @@
+GIT
+  remote: https://github.com/trailblazer/trailblazer-activity
+  revision: 9db275a2124c798d05167bd5b35db214ab58d057
+  specs:
+    trailblazer-activity (0.1.6)
+      hirb
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.0.6)
+    hirb (0.7.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  trailblazer-activity!
+
+BUNDLED WITH
+   1.14.6
