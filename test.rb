@@ -105,3 +105,10 @@ last_signal, options, flow_options, _ = activity.( nil, my_options, {} )
 pp last_signal
 pp options
 pp flow_options
+
+puts "Trace usage:"
+stack, _ = Trailblazer::Activity::Trace.( activity,
+  nil,
+  { content: "Let's start writing", flow_left: true }
+)
+puts Trailblazer::Activity::Trace::Present.tree(stack)
